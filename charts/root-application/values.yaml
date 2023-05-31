@@ -5,7 +5,7 @@ application_metadata_namespace: "argocd"
 application_destination_namespace: "argocd"
 application_destination_name: "in-cluster"
 application_project: "root-application"
-application_source_repo_url: "https://github.com/pjlewisuk/gitops-app-of-apps"
+application_source_repo_url: "https://github.com/pjlewisuk/gitops-on-aks-apps"
 application_source_path: "root-applications"
 
 # Project root-application
@@ -15,10 +15,10 @@ project_metadata_namespace: "argocd"
 project_destination_namespace: "*"
 project_destination_name: "in-cluster"
 project_destination_server: "https://kubernetes.default.svc"
-project_source_repo_url: "https://github.com/pjlewisuk/gitops-app-of-apps"
+project_source_repo_url: "https://github.com/pjlewisuk/gitops-on-aks-apps"
 
 # Repository root-application
 
-repository_metadata_name:  "github.com-pjlewisuk-gitops-app-of-apps"
+repository_metadata_name:  "github.com-pjlewisuk-gitops-on-aks-apps"
 repository_metadata_namespace: "argocd"
-repository_stringData_url: "https://github.com/pjlewisuk/gitops-app-of-apps"
+repository_stringData_url: "https://github.com/pjlewisuk/gitops-on-aks-apps"
